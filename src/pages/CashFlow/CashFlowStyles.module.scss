@@ -1,0 +1,159 @@
+@import "../../styles/main.scss";
+
+.cashFlow {
+  margin: 32px;
+}
+.chartArea {
+  display: flex;
+  justify-content: space-between;
+}
+.baseArea {
+  padding: 32px;
+}
+.graphArea {
+  margin-left: 40px;
+  padding-right: 32px;
+}
+.summary {
+  border-radius: 8px;
+  border: 1px solid var(--Dark4);
+  width: 335px;
+  padding: 24px;
+}
+
+.summary {
+  h5 {
+    margin-bottom: 16px;
+    margin-top: 0px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--Dark1);
+  }
+}
+
+.headerDashboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 32px;
+}
+.selectArea {
+  gap: 16px;
+  display: flex;
+  color: var(--Dark1);
+}
+.selectArea .ant-select-selection-item {
+  font-size: 14px;
+}
+
+.cardArea {
+  padding: 32px 32px;
+
+  .content {
+    color: var(--InputText);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 24px;
+    border-top: 1px solid var(--Dark4);
+    .subContent {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+      .amount {
+        color: var(--Dark1);
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .textArea {
+        color: var(--Primary);
+        text-align: right;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+      }
+    }
+  }
+  .contentArea {
+    display: flex;
+    height: 48px;
+    justify-content: space-between;
+    border-top: 1px solid var(--Dark4);
+    .titleArea {
+      border-bottom: var(--Dark4) 1px solid;
+    }
+    .amount {
+      color: var(--Dark1);
+      text-align: right;
+      font-family: "Inter";
+      font-size: 14px;
+      font-style: normal;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+  .amount {
+    color: var(--Dark1);
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.balanceArea {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+}
+.balanceArea .title {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.balanceArea .date {
+  color: var(--InputText);
+  padding-top: 4px;
+}
+.valueArea {
+  color: var(--Dark1);
+  text-align: right;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.titleArea {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+
+  .title {
+    color: #202020;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

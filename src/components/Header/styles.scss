@@ -1,0 +1,65 @@
+@import "../../styles/main.scss";
+
+.header {
+  height: 72px;
+  margin-left: 32px;
+  padding: 20px 0px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.header .ant-form-item {
+  height: 32px;
+  width: 300px;
+}
+.header .ant-input-affix-wrapper {
+  padding-left: 0px;
+}
+.header .ant-input-affix-wrapper .ant-input-prefix {
+  margin-inline-end: 8px;
+}
+.header .ant-input {
+  font-size: 14px;
+}
+.header .right-section {
+  align-items: center;
+  display: flex;
+}
+.header .add-button {
+  width: 76px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Dark1);
+  border-radius: 8px;
+  border: 1px solid var(--Dark4);
+}
+.header .add-button .ant-btn-icon {
+  color: var(--InputText);
+}
+.header .help-button {
+  margin-left: 28px;
+  color: var(--InputText);
+  margin-right: 10px;
+}
+.header .user-section {
+  margin-left: 28px;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.header .name-section {
+  display: block;
+  line-height: initial;
+  margin-right: 24px;
+}
+.name-section .designation {
+  color: var(--dark-3-dark, #898989);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

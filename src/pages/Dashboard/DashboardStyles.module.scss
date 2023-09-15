@@ -1,0 +1,139 @@
+@import "../../styles/main.scss";
+
+.dashboard {
+  margin: 32px;
+
+  .ant-row {
+    padding: 12px 0px;
+  }
+  .ant-col {
+    padding-right: 12px;
+  }
+  .ant-row .ant-card {
+    border-radius: 12px;
+    background: var(--shape-card, #fff);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  }
+}
+.headerName {
+  color: var(--Dark1);
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+}
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  .description {
+    color: var(--InputText);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+  }
+}
+
+.graphSingle {
+  max-width: 600px;
+}
+.contentArea {
+  margin-top: 32px;
+  .ant-card .ant-card-body {
+    padding: 32px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 32px;
+    .title {
+      font-family: "Inter";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      color: var(--Dark1);
+    }
+    .rightArea > img {
+      padding-right: 12px;
+    }
+    .rightAreaSales {
+      color: var(--Primary);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .balanceAmount {
+    color: var(--Dark1);
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .balanceText {
+    color: var(--InputText);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .details {
+    width: max-content;
+    margin-bottom: 46px;
+  }
+  .items {
+    width: max-content;
+    margin-top: 4px;
+    color: var(--Primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    bottom: 32px;
+  }
+  .contents {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contentDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contentDetails:nth-child(1) {
+    margin-bottom: 46px;
+  }
+  .contentText {
+    display: flex;
+    justify-content: space-between;
+
+    .details {
+      margin-bottom: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .numbers {
+      .balance {
+        font-size: 14px;
+        color: var(--Dark1);
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+
+  .contentTableDashboard {
+    width: 550px;
+  }
+}

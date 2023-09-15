@@ -1,0 +1,169 @@
+@import "../../styles/main.scss";
+
+.bankAccounts {
+  margin: 32px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.headerName {
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--Dark1);
+  line-height: 46px;
+}
+.graphBank {
+  float: right;
+}
+.contentBank {
+  display: flex;
+  padding: 32px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px;
+    .title {
+      color: var(--Dark1);
+      font-family: "Inter";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+  .rightArea {
+    .contact {
+      gap: 12px;
+      display: inline-flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--InputText);
+    }
+    span {
+      padding-left: 24px;
+    }
+  }
+
+  .contentsText .item {
+    margin-top: 64px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--Primary);
+  }
+  .ant-col,
+  .ant-row {
+    width: 100%;
+  }
+
+  .contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .details {
+      margin-bottom: 24px;
+    }
+    .balanceAmount {
+      color: var(--Dark1);
+      font-family: "Inter";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .balanceText {
+      color: var(--InputText);
+      font-family: "Inter";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .contentsBottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .details {
+      margin-bottom: 24px;
+    }
+    .balanceAmount {
+      color: var(--Dark1);
+      font-family: "Inter";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .balanceText {
+      color: var(--InputText);
+      font-family: "Inter";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-bottom: 8px;
+    }
+    .contentsText {
+      width: 25%;
+    }
+
+    .graphBank {
+      width: 70%;
+      align-items: center;
+      min-height: 200px;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+
+      .title {
+        color: var(--Dark1);
+        text-align: center;
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      .desc {
+        color: var(--Primary);
+        text-align: center;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+  .contentFooter {
+    margin: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    .footerOrder {
+      display: flex;
+      align-items: center;
+      span {
+        color: var(--InputText);
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .footerArrow {
+        padding-left: 16px;
+        display: flex;
+      }
+    }
+  }
+}

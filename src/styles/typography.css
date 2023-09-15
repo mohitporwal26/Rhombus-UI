@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1.ant-typography,
+h2.ant-typography,
+h3.ant-typography {
+  margin: 0;
+  font-family: "Inter";
+}
+h5.ant-typography {
+  margin-bottom: 0;
+}
+h1.ant-typography {
+  color: var(--TextColor);
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+p {
+  color: var(--dark6);
+  line-height: 24px;
+}
+svg {
+  vertical-align: middle;
+}
+a {
+  font-size: 14px;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.ant-avatar > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+@media screen and (max-width: 991px) {
+  h2.ant-typography {
+    font-size: 20px;
+  }
+}
+.ant-card-cover {
+  position: relative;
+  height: 161px;
+  border-bottom: 1px solid var(--BgWhite);
+}
+.ant-card-cover a {
+  height: 100%;
+}
+.ant-btn-link,
+.ant-btn-text,
+.ant-collapse .ant-collapse-content .ant-collapse-content-box,
+.filterSelectDropdown {
+  padding: 0;
+}
+.ant-menu-item-selected {
+  color: var(--Primary);
+}

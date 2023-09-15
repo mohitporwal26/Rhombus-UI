@@ -1,0 +1,89 @@
+@import "../../styles/main.scss";
+.top-layout {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-layout {
+  background: var(--White);
+  width: 250px;
+  display: block;
+  max-width: 250px;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+.profile-section {
+  height: 52px;
+  border-radius: 12px;
+  box-shadow: 0 1 2 0;
+  width: 218px;
+  display: flex;
+  margin: 16px;
+  align-items: center;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.12));
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+.arrow-dropdown {
+  margin-left: 69px;
+}
+.ant-menu {
+  color: var(--Dark1);
+  margin: 0px 12px;
+}
+
+.user {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Dark1);
+  font-weight: 500;
+  font-size: 14px;
+  margin: 14px 12px;
+  gap: 8px;
+}
+.navbar-layout .slider {
+  margin: 0px 12px 0px 12px;
+  width: auto;
+  overflow: hidden;
+}
+.navbar-layout .ant-menu-item,
+.navbar-layout .ant-menu-submenu .ant-menu-submenu-title {
+  height: 52px;
+  padding: 0px 12px !important;
+}
+.navbar-layout .ant-menu-title-content {
+  margin-left: 12px;
+}
+
+.navbar-layout .nav-footer {
+  bottom: 0px;
+  position: fixed;
+  max-width: 200px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.nav-footer .title {
+  color: var(--Dark1);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav-footer .description {
+  padding-top: 9px;
+  color: var(--InputText);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.nav-footer .description span {
+  color: var(--Primary);
+  text-decoration: underline;
+}

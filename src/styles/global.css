@@ -1,0 +1,227 @@
+@import "./main.scss";
+
+.dashboard.ant-col {
+  padding-right: 12px;
+}
+.dashboard.ant-row .ant-card {
+  border-radius: 12px;
+  background: var(--shape-card, #fff);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+.contentInvoice .ant-card .ant-card-body {
+  padding: 32px 0px;
+}
+.contentInvoice .ant-table-tbody > tr > td {
+  padding: 16px 0px;
+}
+.contentInvoice .ant-table-wrapper .ant-table-thead > tr > th {
+  padding: 16px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--Dark6);
+  border-bottom: 1px solid #dcdcdc;
+  background: none;
+}
+
+.sales .ant-row {
+  padding: 12px 0px;
+}
+
+.sales .ant-row .ant-card {
+  border-radius: 12px;
+  width: 100%;
+  background: var(--shape-card, #fff);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+
+.contentTableDashboard .ant-table-wrapper .ant-table-thead > tr > th {
+  border-bottom: 1px solid var(--Dark4);
+}
+.contentTableDashboard .ant-table-wrapper .ant-table-thead > tr > th {
+  background: #fff;
+  padding-left: 0px;
+  padding-top: 0px;
+  color: var(--InputText);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contentTableDashboard
+  .ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > td:nth-child(2),
+.contentTableDashboard
+  .ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > td:nth-child(3) {
+  font-weight: 600;
+}
+.contentTableDashboard .ant-table-wrapper .ant-table-tbody > tr > td {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.contentAreaSales .ant-card .ant-card-body {
+  padding: 32px;
+}
+
+.contentArea .ant-card .ant-card-body {
+  padding: 32px;
+}
+.contentAreaSales .ant-table-wrapper .ant-table-thead > tr > th {
+  background: #fff;
+  padding-left: 0px;
+  padding-top: 0px;
+  color: var(--InputText);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contentAreaSales thead {
+  display: none;
+}
+.contentAreaSales .ant-table-wrapper .ant-table-tbody > tr > td {
+  margin-left: 0;
+  padding-left: 0;
+  color: var(--Dark1);
+}
+.contentAreaSales .ant-table-wrapper .ant-table-tbody > tr > td:nth-child(2),
+.contentAreaSales .ant-table-wrapper .ant-table-tbody > tr > td:nth-child(3) {
+  font-weight: 600;
+}
+.contentAreaSales .ant-table-tbody > tr > td {
+  padding: 12px;
+}
+.contentInvoice
+  .ant-table-wrapper
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  > *:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contentCashFlow .ant-select-single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentCashFlow.contentCashFlow .ant-select .ant-select-selection-item {
+  color: var(--Dark1);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  line-height: normal;
+}
+.contentCashFlow .ant-select .ant-select-arrow .anticon > svg {
+  padding: 2px;
+}
+.summaryCashFlow .ant-table-row > .ant-table-cell:nth-child(2) {
+  font-weight: 600;
+  float: right;
+}
+
+.summaryCashFlow .ant-table-wrapper .ant-table-tbody > tr > td {
+  padding: 8px 0px;
+}
+.summaryCashFlow .ant-table-thead {
+  display: none;
+}
+
+.summaryCashFlow
+  .ant-table-wrapper
+  .ant-table-tbody
+  > tr.ant-table-row:hover
+  > td {
+  background: none;
+}
+
+.summaryCashFlow .ant-table {
+  border: 0px;
+  width: auto;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--Dark1);
+}
+
+.cashFlow .ant-select-selection-item {
+  font-size: 14px;
+}
+.cashFlow .ant-select .ant-select-selector {
+  padding-left: 0px;
+}
+
+.cashFlow .ant-select-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+}
+.cashFlow
+  .ant-card
+  .ant-table-wrapper
+  .ant-table-tbody
+  > tr.ant-table-row:hover
+  > td,
+.cashFlow
+  .ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > td.ant-table-cell-row-hover
+  .ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > th.ant-table-cell-row-hover {
+  background: none;
+}
+
+.contentBank .ant-col,
+.contentBank .ant-row {
+  width: 100%;
+}
+.ant-table-wrapper .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: none !important;
+}
+.titleAreaCashFlow .ant-select {
+  color: var(--InputText);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  display: inline-flex;
+  width: auto;
+}
+.titleAreaCashFlow .ant-select-single .ant-select-selector {
+  font-size: 12px;
+}
+.titleAreaCashFlow
+  .ant-select-single
+  .ant-select-selector
+  .ant-select-selection-item {
+  line-height: normal;
+  align-self: center;
+}
+.ant-checkbox-wrapper {
+  align-items: center;
+}
+
+.footerBank .anticon {
+  width: 24px;
+  display: flex;
+  justify-content: center;
+}

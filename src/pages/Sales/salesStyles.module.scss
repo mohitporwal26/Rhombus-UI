@@ -1,0 +1,144 @@
+@import "../../styles/main.scss";
+
+.sales {
+  margin: 32px;
+}
+
+.toggleButton {
+  display: flex;
+  gap: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.headerName {
+  color: var(--Dark1);
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+}
+.contentArea .balanceText {
+  margin-bottom: 12px;
+}
+.header {
+  .title {
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--Dark1);
+  }
+}
+
+.contentArea {
+  padding: 32px 32px 32px 0px;
+  .ant-card .ant-card-body {
+    padding: 32px 0px;
+  }
+  .headerSales {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 32px;
+    padding-top: 0px;
+    align-items: center;
+    span {
+      color: var(--Primary);
+    }
+    .title {
+      font-family: "Inter";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      color: var(--Dark1);
+    }
+  }
+  .balanceAmount {
+    color: var(--Dark1);
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .headerTable {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter";
+    font-size: 24px;
+    color: var(--Dark1);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    .primary {
+      color: var(--Primary);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      align-self: center;
+    }
+  }
+  .balanceText {
+    color: var(--InputText);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .details {
+    width: max-content;
+    padding: 32px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .items {
+    width: max-content;
+    margin-top: 4px;
+    color: var(--Primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    bottom: 32px;
+  }
+  .contents {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contentDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contentDetails:nth-child(1) {
+    margin-bottom: 46px;
+  }
+  .contentText {
+    display: flex;
+    justify-content: space-between;
+
+    .details {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .numbers {
+      .balance {
+        font-size: 14px;
+        color: var(--Dark1);
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import "../../styles/main.scss";
+
+.businessSnapshot {
+  margin: 32px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
