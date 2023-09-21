@@ -9,6 +9,7 @@ import Sales from "./pages/Sales/Sales";
 import Invoices from "./pages/Invoices/Invoices";
 import BankAccounts from "./pages/BankAccounts/BankAccounts";
 import "./styles/global.css";
+import BusinessSnapshot from "./pages/BusinessSnapshot/BusinessSnapshot";
 
 function App() {
   const router = createBrowserRouter([
@@ -31,6 +32,10 @@ function App() {
     {
       path: "/bank-accounts",
       element: <BankAccounts />,
+    },
+    {
+      path: "/business-snapshot",
+      element: <BusinessSnapshot />,
     },
   ]);
 

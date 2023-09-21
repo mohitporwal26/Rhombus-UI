@@ -304,8 +304,8 @@ const Dashboard = () => {
                   </div> */}
                   <div className={styles.items}>Reconciled</div>
                 </div>
-                <div className={styles.graph}>
-                  <Line options={options} data={dataGraph2} />
+                <div className={styles.graphBalance}>
+                  <Line options={options} height={200} data={dataGraph2} />
                 </div>
               </div>
             </Card>
@@ -318,11 +318,10 @@ const Dashboard = () => {
                 <span className={styles.right-area">Cash out</span> */}
               </div>
               <div className={styles.contentText}>
-                <div className={styles.graph}>
+                <div className={`graphArea ${styles.graph}`}>
                   <Bar
                     type="bar"
-                    width={600}
-                    height={175}
+                    height={200}
                     options={optionStacked}
                     data={groupedBarGraph}
                   />

@@ -6,5 +6,39 @@
   .header {
     display: flex;
     justify-content: space-between;
+    .headerName {
+      color: var(--Dark1);
+      font-family: "Inter";
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 46px;
+    }
+  }
+  .content {
+    padding: 32px;
+    margin: 32px 0px;
+    .headerContent {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+
+      .headerName {
+        color: var(--Dark1);
+        font-family: "Inter";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .headerDesc {
+        color: var(--InputText);
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
   }
 }
