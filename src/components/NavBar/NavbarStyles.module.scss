@@ -1,20 +1,17 @@
 @import "../../styles/main.scss";
-.top-layout {
-  display: flex;
-  flex-direction: row;
-}
-.navbar-layout {
+
+.navbarLayout {
   background: var(--White);
   width: 250px;
   display: block;
   max-width: 250px;
 }
-.logo-section {
+.logoSection {
   display: flex;
   align-items: center;
   height: 72px;
 }
-.profile-section {
+.profileSection {
   height: 52px;
   border-radius: 12px;
   box-shadow: 0 1 2 0;
@@ -26,12 +23,9 @@
   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.12));
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
 }
-.arrow-dropdown {
+.arrowDropdown {
   margin-left: 69px;
-}
-.ant-menu {
-  color: var(--Dark1);
-  margin: 0px 12px;
+  color: var(--InputText);
 }
 
 .user {
@@ -44,21 +38,13 @@
   margin: 14px 12px;
   gap: 8px;
 }
-.navbar-layout .slider {
+.navbarLayout .slider {
   margin: 0px 12px 0px 12px;
   width: auto;
   overflow: hidden;
 }
-.navbar-layout .ant-menu-item,
-.navbar-layout .ant-menu-submenu .ant-menu-submenu-title {
-  height: 52px;
-  padding: 0px 12px !important;
-}
-.navbar-layout .ant-menu-title-content {
-  margin-left: 12px;
-}
 
-.navbar-layout .nav-footer {
+.navbarLayout .navFooter {
   bottom: 0px;
   position: fixed;
   max-width: 200px;
@@ -66,7 +52,7 @@
   margin-bottom: 24px;
 }
 
-.nav-footer .title {
+.navFooter .title {
   color: var(--Dark1);
   font-family: "Inter";
   font-size: 16px;
@@ -74,7 +60,7 @@
   font-weight: 500;
   line-height: normal;
 }
-.nav-footer .description {
+.navFooter .description {
   padding-top: 9px;
   color: var(--InputText);
   font-family: Inter;
@@ -83,7 +69,7 @@
   font-weight: 400;
   line-height: 24px; /* 171.429% */
 }
-.nav-footer .description span {
+.navFooter .description span {
   color: var(--Primary);
   text-decoration: underline;
 }

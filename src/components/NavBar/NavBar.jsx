@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.scss";
+import styles from "./NavbarStyles.module.scss";
 import { MenuOutlined, CaretDownOutlined } from "@ant-design/icons";
 import { ReactComponent as Overview } from "../../assets/images/ic_dashboard.svg";
 import { ReactComponent as Business } from "../../assets/images/ic_store.svg";
@@ -20,7 +20,7 @@ const Navbar = () => {
   // const itemsCRM = [
   //   {
   //     key: "1",
-  //     icon: <Overview className="item-logo" />,
+  //     icon: <Overview className={styles.item-logo" />,
   //     label: "Overview",
   //   },
   //   {
@@ -77,7 +77,7 @@ const Navbar = () => {
   const itemsFintech = [
     {
       key: "1",
-      icon: <Overview className="item-logo" />,
+      icon: <Overview className={styles.itemLogo} />,
       label: <a href={`/`}> Overview </a>,
     },
     {
@@ -156,8 +156,8 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="navbar-layout">
-      <div className="logo-section">
+    <div className={`navbarLayout ${styles.navbarLayout}`}>
+      <div className={styles.logoSection}>
         <Button
           type="text"
           icon={<MenuOutlined />}
@@ -170,21 +170,21 @@ const Navbar = () => {
         />
         <Logo />
       </div>
-      <div className="profile-section">
-        <span className="user">
+      <div className={styles.profileSection}>
+        <span className={styles.user}>
           <Profile /> Lajou Cafe
         </span>
-        <CaretDownOutlined className="arrow-dropdown" />
+        <CaretDownOutlined className={styles.arrowDropdown} />
       </div>
       <Menu
         mode="inline"
         items={itemsFintech}
         inlineCollapsed={collapsed}
-        className="slider"
+        className={styles.slider}
       />
-      <div className="nav-footer">
-        <div className="title">Rhombus UI Kit</div>
-        <div className="description">
+      <div className={styles.navFooter}>
+        <div className={styles.title}>Rhombus UI Kit</div>
+        <div className={styles.description}>
           Want to get more info
           <div>
             about Rhombus? <span>Contact Us</span>
