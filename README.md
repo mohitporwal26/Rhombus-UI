@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Pages
+
+/ - Home page
+/cash-flow - Cash Flow
+/sales - Sales Page
+/bank-accounts - Bank Accounts
+
 ## Available Scripts
 
 In the project directory, you can run:
