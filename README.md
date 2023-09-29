@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 / - Home page \
 /cash-flow - Cash Flow \
 /sales - Sales Page \
-/bank-accounts - Bank Accounts \
+/bank-accounts - Bank Accounts
 
 ## Available Scripts
 
