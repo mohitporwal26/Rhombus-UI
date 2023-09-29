@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Pages
 
-/ - Home page
-/cash-flow - Cash Flow
-/sales - Sales Page
-/bank-accounts - Bank Accounts
+/ - Home page \
+/cash-flow - Cash Flow \
+/sales - Sales Page \
+/bank-accounts - Bank Accounts \
 
 ## Available Scripts
 
